@@ -135,7 +135,7 @@ public class Checkout_scenario_steps extends Utility{
 		objectMethod();
 		Thread.sleep(3000);
 		cs1.enterFirstname(firstname);
-		cs1.enterLastname(lastname);//4/3
+		cs1.enterLastname(lastname);
 		cs1.enterPincode(zipcode);
 		Thread.sleep(4000);
 		 logger.log(Status.INFO, "Step5 is executed");
@@ -151,7 +151,7 @@ public class Checkout_scenario_steps extends Utility{
 		scroll();
 		Thread.sleep(4000);
 		cs1.continueButton();
-		 logger.log(Status.INFO, "Step6 is executed"); //5/3     5/4
+		 logger.log(Status.INFO, "Step6 is executed"); 
 		 
 	}
 	@Then("It shows elements of checkout overview page")

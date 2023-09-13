@@ -56,18 +56,5 @@ public class Checkout_Step1 extends Utility {
 	{
 		return errormsg.getText();
 	}
-//	if(lp.mobilenumber.isDisplayed()==true) {
-//
-//        System.out.println("elements are enabled");
-//
-//        Thread.sleep(5000);
-//
-//    }
-//
-//    else {
-//
-//        System.out.println("not working");
-//
-//    }
-//	 logger.log(Status.INFO, "Step7 is executed");
+
 }

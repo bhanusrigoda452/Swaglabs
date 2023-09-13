@@ -43,7 +43,7 @@ public class Checkout_scenario_outlines_steps extends Utility{
 	@Given("Chrome is launched and Swaglabs is opened")
 	public void chrome_is_launched_and_swaglabs_is_opened() throws IOException, InterruptedException {
 	    objectMethod();
-	    logger = report.createTest("test01");
+	    logger = report.createTest("test02");
 
         logger.log(Status.INFO, "Swag labs page is opened");
 	    String actualTitle = lp.validatePageTitle();
