@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Date;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+//import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
  
@@ -34,15 +34,15 @@ public class Utility extends Config {
 			System.setProperty("webdriver.chrome.driver", chromeDriverPath);
 			driver = new ChromeDriver();
 			break;
-		
-		case "FIREFOX":
-			System.setProperty("webdriver.gecko.driver", geckoDriverPath);
-			driver = new FirefoxDriver();
-			break;
+//		
+//		case "FIREFOX":
+//			System.setProperty("webdriver.gecko.driver", geckoDriverPath);
+//			driver = new FirefoxDriver();
+//			break;
 			
-		case "HTMLUNIT":
-			driver = new HtmlUnitDriver();
-			break;
+//		case "HTMLUNIT":
+//			driver = new HtmlUnitDriver();
+//			break;
 			
 		default:
 			System.out.println("Browser is not supported");
