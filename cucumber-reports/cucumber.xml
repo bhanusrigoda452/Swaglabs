@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="100.029" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.1" time="37.43">
+<testsuite name="Cucumber" time="117.622" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.1" time="46.992">
 <system-out><![CDATA[
 Given Chrome is launched and Swaglabs is opened.............................passed
 Then User navigates to login page...........................................passed
@@ -11,7 +11,7 @@ And User clicks on Continue button in checkout information page.............pass
 Then It navigates to checkout overview page.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.2" time="31.75">
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with valid data - Example #1.2" time="36.971">
 <system-out><![CDATA[
 Given Chrome is launched and Swaglabs is opened.............................passed
 Then User navigates to login page...........................................passed
@@ -22,7 +22,7 @@ And User clicks on Continue button in checkout information page.............pass
 Then It navigates to checkout overview page.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with invalid data - Example #1.1" time="30.553">
+<testcase classname="Checkout_Page" name="Verify checkout-step-one page functionality with invalid data - Example #1.1" time="33.462">
 <system-out><![CDATA[
 Given Chrome is launched and Swaglabs is opened.............................passed
 Then User navigates to login page...........................................passed

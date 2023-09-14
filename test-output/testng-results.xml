@@ -1,95 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T12:49:16 IST" name="Default suite" finished-at="2023-06-09T12:52:20 IST" duration-ms="183959">
+  <suite started-at="2023-09-14T17:21:12 IST" name="Default suite" finished-at="2023-09-14T17:23:11 IST" duration-ms="118875">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-06-09T12:49:16 IST" name="Default test" finished-at="2023-06-09T12:52:20 IST" duration-ms="183959">
-      <class name="testrunner.Checkout_page_scenario_TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:49:16 IST" name="setUpClass" finished-at="2023-06-09T12:49:16 IST" duration-ms="328" status="PASS">
+    <test started-at="2023-09-14T17:21:12 IST" name="Default test" finished-at="2023-09-14T17:23:11 IST" duration-ms="118875">
+      <class name="testrunner.Checkout_page_scenario_outlines_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" started-at="2023-09-14T17:21:12 IST" name="setUpClass" finished-at="2023-09-14T17:21:13 IST" duration-ms="635" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@69ec93c2]]>
+                <![CDATA[org.testng.TestRunner@8f57e4c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:49:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T12:49:47 IST" duration-ms="30615" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" started-at="2023-09-14T17:21:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-14T17:22:00 IST" duration-ms="47069" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify  navigation of checkout information page"]]>
+                <![CDATA["Verify checkout-step-one page functionality with valid data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Checkout page2"]]>
+                <![CDATA["Checkout_Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:49:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T12:50:29 IST" duration-ms="41515" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" started-at="2023-09-14T17:22:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-14T17:22:37 IST" duration-ms="36983" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify  UI of checkout information page"]]>
+                <![CDATA["Verify checkout-step-one page functionality with valid data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Checkout page2"]]>
+                <![CDATA["Checkout_Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:50:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T12:51:18 IST" duration-ms="49350" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" started-at="2023-09-14T17:22:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-14T17:23:10 IST" duration-ms="33471" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify functionality in checkout overview page(Finish button is clickable)"]]>
+                <![CDATA["Verify checkout-step-one page functionality with invalid data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Checkout page2"]]>
+                <![CDATA["Checkout_Page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:51:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-09T12:52:20 IST" duration-ms="62085" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify functionality of product purchase"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Checkout page2"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.Checkout_page_scenario_TestRunner@645aa696]" started-at="2023-06-09T12:52:20 IST" name="tearDownClass" finished-at="2023-06-09T12:52:20 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.Checkout_page_scenario_outlines_TestRunner@303cf2ba]" started-at="2023-09-14T17:23:10 IST" name="tearDownClass" finished-at="2023-09-14T17:23:11 IST" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- testrunner.Checkout_page_scenario_TestRunner -->
+      </class> <!-- testrunner.Checkout_page_scenario_outlines_TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
